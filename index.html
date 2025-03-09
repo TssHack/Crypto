@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet">
+    <title>صفحه ارزهای دیجیتال</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="text-box">
+            <h1>نرخ ارز دیجیتال</h1>
+            <p>قیمت‌ها بصورت لحظه‌ای و دلاری می‌باشند.</p>
+            <button class="reload-btn" onclick="fetchCryptoData()">بارگذاری مجدد</button>
+        </div>
+        
+        <div id="crypto-list"></div>
+
+        <div id="loading-message" style="display: none;">در حال بارگذاری...</div>
+    </div>
+    
+    <footer>
+        <p>توسعه‌دهنده: <strong>احسان فضلی</strong></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
